@@ -1,0 +1,237 @@
+body {
+	margin: 0;
+}
+/*Fonts*/
+.general-header-font {
+	font-family: Roboto;
+		font-style: normal;
+		font-size: 24px;
+		line-height: 28px;
+		color: #000000;
+
+} 
+.bold {
+	font-weight: 600;
+}
+.general-description-1-font {
+	font-family: Roboto;
+	font-style: normal;
+	color: #1A1A1A;
+}
+.font-size-sm {
+	font-size: 24px;
+	line-height: 28px;
+}
+.font-size-lg {
+	font-size: 36px;
+	line-height: 42px;
+}
+.general-description-2-font {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+}
+.button-font {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: #161616;
+	}
+	/*Fonts end*/
+
+	/*Appearance*/
+		/*Header*/
+			header {
+				margin-top: 20px;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-evenly;			
+			}
+			#header-buttons {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				gap: 20px;
+			}
+      header button {
+					width: 15vw;
+          height: 68px;
+			    border: 2px solid #B6B6B6;
+          border-radius: 10px;  
+      }
+     #email-link {
+			 display: flex;
+			 align-items: center;
+			 gap: 15px;
+      }
+		/*Header-End*/
+
+		/*Description-1*/
+			#description-1 {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				gap: 110px;
+				margin: 150px 40px 0px 40px;		    
+			}
+    .light-font {
+	     color: #494949;;
+    }
+			.column {
+				display: flex;
+				flex-direction: column;
+			}
+      #description-1 img {
+	       width: 40vw;
+}
+		/*Description-1-End*/
+
+		/*Description-2*/
+			#description-2 {
+				background-image: url(images/background.png);
+				display: flex;
+				 margin-top: 72px;
+				flex-direction: column;
+				align-items: center;
+				text-align: center;		
+				color: #FFFFFF;
+			}
+     #description-2 p {
+			 margin-top: 72px;
+			 width: 80vw;
+	     
+			}
+			#description-2 button {
+				width: 416px;
+				height: 88px;
+				background: #FFFFFF;
+				border-radius: 10px;
+				font-weight: 500;
+        font-size: 24px;
+				margin-bottom: 90px;
+			}
+		/*Description-2-End
+
+     /*Social-buttons*/
+      #social-buttons {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-evenly;
+				align-items: center;
+				text-align: center;
+				margin-left: 10vw;
+				margin-right: 10vw;
+				margin-top: 18px;
+      }
+     /*Social buttons*/
+	/*End of Appearance*/
+
+
+@media (max-width: 780px) {
+	/*Fonts*/
+	.general-header-font {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 14px;
+		color: #000000;
+	}
+	
+	.general-header-font img {
+    width: 38px;	
+	}
+	.bold {
+		font-weight: 600;
+	}
+	.general-description-1-font {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+}
+	.font-size-sm {
+		font-size: 14px;
+		line-height: 16px;
+}
+	.font-size-lg {
+		font-size: 18px;
+		line-height: 21px;
+}
+	.general-description-2-font {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+}
+	.button-font {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 21px;
+	}
+	/*Fonts-End*/
+	/*Appearance*/
+	/*Header*/
+			header {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				margin-left: 5vw;
+			}
+			#header-buttons {
+				display: none;
+			}
+
+		/*Header-End*/
+
+		/*Description-1*/
+			#description-1 {
+				display: flex;
+				flex-direction: column-reverse;
+				justify-content: center;
+				align-items: center;
+				gap: 18px;
+				
+			}
+			.column {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				text-align: center;
+				align-items: center;
+			
+			}
+			#description-1 img {
+			 
+				width: 154px;
+				height: 154px;		
+			}
+		/*Description-1-End*/
+
+		/*Description-2*/
+			#description-2 {
+				background-image: url(images/background.png);
+			}
+			#description-2 button {
+				width: 198px;
+				height: 41px;
+				background: #FFFFFF;
+				border-radius: 10px;
+			}
+
+		/*Description-2-End*/
+
+		/*Social Buttons*/
+			#social-buttons {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: space-evenly;
+
+			}
+		/*Social  Buttons-End*/
+
+	/*End of Appearance*/
+}
